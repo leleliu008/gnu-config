@@ -4,7 +4,7 @@
 
 # shellcheck disable=SC2006,SC2268,SC2162 # see below for rationale
 
-timestamp='2024-05-27'
+timestamp='2024-11-20'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -145,6 +145,7 @@ case $1 in
 			| kfreebsd*-gnu* \
 			| knetbsd*-gnu* \
 			| kopensolaris*-gnu* \
+			| ironclad-* \
 			| linux-* \
 			| managarm-* \
 			| netbsd*-eabi* \
@@ -1522,6 +1523,10 @@ EOF
 		kernel=nto
 		os=`echo "$basic_os" | sed -e 's|nto|qnx|'`
 		;;
+	ironclad*)
+		kernel=ironclad
+		os=`echo "$basic_os" | sed -e 's|ironclad|mlibc|'`
+		;;
 	linux*)
 		kernel=linux
 		os=`echo "$basic_os" | sed -e 's|linux|gnu|'`
@@ -2022,7 +2027,6 @@ case $os in
 	| ios* \
 	| iris* \
 	| irix* \
-	| ironclad* \
 	| isc* \
 	| its* \
 	| l4re* \
@@ -2213,6 +2217,8 @@ case $kernel-$os-$obj in
 		    | linux-relibc*- | linux-uclibc*- | linux-ohos*- )
 		;;
 	uclinux-uclibc*- | uclinux-gnu*- )
+		;;
+	ironclad-mlibc*-)
 		;;
 	managarm-mlibc*- | managarm-kernel*- )
 		;;
