@@ -4,7 +4,7 @@
 
 # shellcheck disable=SC2006,SC2268,SC2162 # see below for rationale
 
-timestamp='2024-11-20'
+timestamp='2024-12-13'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1322,6 +1322,7 @@ case $cpu-$vendor in
 			| i960 \
 			| ia16 \
 			| ia64 \
+			| intelgt \
 			| ip2k \
 			| iq2000 \
 			| javascript \

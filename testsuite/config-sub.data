@@ -450,6 +450,7 @@ i960						i960-unknown-none
 ia16						ia16-unknown-none
 ia64						ia64-unknown-none
 ibm						i370-ibm-aix
+intelgt						intelgt-unknown-none
 ip2k						ip2k-unknown-none
 iq2000						iq2000-unknown-none
 iris						mips-sgi-irix4
