@@ -4,7 +4,7 @@
 
 # shellcheck disable=SC2006,SC2268,SC2162 # see below for rationale
 
-timestamp='2025-01-01'
+timestamp='2025-01-06'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1195,7 +1195,7 @@ case $cpu-$vendor in
 	xscale-* | xscalee[bl]-*)
 		cpu=`echo "$cpu" | sed 's/^xscale/arm/'`
 		;;
-	arm64-* | aarch64le-*)
+	arm64-* | aarch64le-* | arm64_32-*)
 		cpu=aarch64
 		;;
 
@@ -2255,6 +2255,8 @@ case $kernel-$os-$obj in
 	rtmk-nova-)
 		;;
 	*-eabi*- | *-gnueabi*-)
+		;;
+	ios*-simulator- | tvos*-simulator- | watchos*-simulator- )
 		;;
 	none--*)
 		# None (no kernel, i.e. freestanding / bare metal),

@@ -116,10 +116,14 @@ arm-unknown-riscos				arm-unknown-riscos
 arm-zephyr					arm-unknown-zephyr
 arm64-apple-darwin20.0.0			aarch64-apple-darwin20.0.0
 arm64-apple-ios					aarch64-apple-ios
+arm64-apple-ios12.0-simulator			aarch64-apple-ios12.0-simulator
 arm64-apple-tvos				aarch64-apple-tvos
 arm64-apple-tvos10.0.0				aarch64-apple-tvos10.0.0
+arm64-apple-tvos10.0.0-simulator		aarch64-apple-tvos10.0.0-simulator
 arm64-apple-watchos				aarch64-apple-watchos
 arm64-apple-watchos5.0				aarch64-apple-watchos5.0
+arm64-apple-watchos5.0-simulator		aarch64-apple-watchos5.0-simulator
+arm64_32-apple-watchos4.0			aarch64-apple-watchos4.0
 arm64e-apple-darwin20.0.0			arm64e-apple-darwin20.0.0
 arm64e-apple-ios				arm64e-apple-ios
 arm64ec-pc-mingw32				arm64ec-pc-mingw32
@@ -1106,6 +1110,8 @@ we32k						we32k-att-sysv
 x64						x86_64-pc-none
 x64-linux					x86_64-pc-linux-gnu
 x86						x86-unknown-none
+x86_64-apple-ios12.0-simulator			x86_64-apple-ios12.0-simulator
+x86_64-apple-tvos9.0-simulator			x86_64-apple-tvos9.0-simulator
 x86_64-cygwin					x86_64-pc-cygwin
 x86_64-dicos					x86_64-pc-dicos
 x86_64-ericsson-dicos				x86_64-ericsson-dicos
