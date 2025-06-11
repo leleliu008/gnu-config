@@ -25,6 +25,7 @@ aarch64-linux-ohos				aarch64-unknown-linux-ohos
 aarch64-managarm				aarch64-unknown-managarm-mlibc
 aarch64-managarm-kernel				aarch64-unknown-managarm-kernel
 aarch64-managarm-mlibc				aarch64-unknown-managarm-mlibc
+aarch64-tock					aarch64-unknown-tock
 aarch64-unknown-elf				aarch64-unknown-elf
 aarch64-unknown-linux				aarch64-unknown-linux-gnu
 aarch64-unknown-uefi				aarch64-unknown-uefi
@@ -103,6 +104,7 @@ arm-riscix1.2					arm-acorn-riscix1.2
 arm-riscos					arm-unknown-riscos
 arm-semi					arm-semi-aout
 arm-sysgo-pikeos				arm-sysgo-eabi
+arm-tock					arm-unknown-tock
 arm-tirtos					arm-unknown-tirtos
 arm-uclinux-gnueabi				arm-unknown-uclinux-gnueabi
 arm-uclinux-uclibcgnueabi			arm-unknown-uclinux-uclibcgnueabi
@@ -404,6 +406,7 @@ i386-serenity					i386-pc-serenity
 i386-solidbsd					i386-pc-solidbsd
 i386-sortix					i386-pc-sortix
 i386-sun					i386-sun-sunos4.0.2
+i386-tock					i386-unknown-tock
 i386-udk					i386-pc-udk
 i386-vsta					i386-pc-vsta
 i386-windows					i386-pc-windows
@@ -415,6 +418,7 @@ i386v32						i386-pc-sysv32
 i386v4						i386-pc-sysv4
 i486-elf					i486-pc-elf
 i486-ncr					i486-ncr-sysv
+i486-tock					i486-unknown-tock
 i486sol2					i486-pc-solaris2
 i486v						i486-pc-sysv
 i486v32						i486-pc-sysv32
@@ -424,6 +428,7 @@ i586-auroraux5.0				i586-pc-auroraux5.0
 i586-elf					i586-pc-elf
 i586-rdos					i586-pc-rdos
 i586-skyos					i586-pc-skyos
+i586-tock					i586-unknown-tock
 i586-zephyr					i586-unknown-zephyr
 i586sol2					i586-pc-solaris2
 i586v						i586-pc-sysv
@@ -437,6 +442,7 @@ i686-ericsson-dicos				i686-ericsson-dicos
 i686-haiku					i686-pc-haiku
 i686-kopensolaris5.11-gnu			i686-pc-kopensolaris5.11-gnu
 i686-os2-emx					i686-pc-os2-emx
+i686-tock					i686-unknown-tock
 i686-unknown-uefi				i686-unknown-uefi
 i686-wrs-vxworks				i686-wrs-vxworks
 i686-wrs-vxworks-simlinux			i686-wrs-vxworks-simlinux
@@ -861,6 +867,7 @@ riscv-linux-mlibc				riscv-unknown-linux-mlibc
 riscv-managarm					riscv-unknown-managarm-mlibc
 riscv-managarm-kernel				riscv-unknown-managarm-kernel
 riscv-managarm-mlibc				riscv-unknown-managarm-mlibc
+riscv-tock					riscv-unknown-tock
 riscv-twizzler					riscv-unknown-twizzler
 riscv-zephyr					riscv-unknown-zephyr
 riscv32						riscv32-unknown-none
@@ -868,6 +875,7 @@ riscv32-company-elf				riscv32-company-elf
 riscv32-company-hcos				riscv32-company-hcos
 riscv32-elf					riscv32-unknown-elf
 riscv32-linux					riscv32-unknown-linux-gnu
+riscv32-tock					riscv32-unknown-tock
 riscv32-wrs-vxworks				riscv32-wrs-vxworks
 riscv32-zephyr					riscv32-unknown-zephyr
 riscv32be					riscv32be-unknown-none
@@ -881,6 +889,7 @@ riscv64-company-none-elf			riscv64-company-none-elf
 riscv64-elf					riscv64-unknown-elf
 riscv64-hcos					riscv64-unknown-hcos
 riscv64-linux					riscv64-unknown-linux-gnu
+riscv64-tock					riscv64-unknown-tock
 riscv64-wrs-vxworks				riscv64-wrs-vxworks
 riscv64-zephyr					riscv64-unknown-zephyr
 riscv64be					riscv64be-unknown-none
@@ -1137,6 +1146,7 @@ x86_64-qnx					x86_64-pc-qnx
 x86_64-redox					x86_64-pc-redox
 x86_64-secbsd					x86_64-pc-secbsd
 x86_64-sortix					x86_64-pc-sortix
+x86_64-tock					x86_64-unknown-tock
 x86_64-twizzler					x86_64-pc-twizzler
 x86_64-unknown-ptx				x86_64-sequent-ptx
 x86_64-unknown-uefi				x86_64-unknown-uefi
